@@ -21,13 +21,13 @@ To run the code, there are a couple of ways to execute the code.
 The jar can be directly run using the following command.
 
 ```
-java -jar applecart-0.0.1.jar <JSONL file>
+java -jar graph-0.0.1.jar <JSONL file>
 ```
 
 There is sample dataset found under test-dataset
 which can be run as follows,
 ```
-java -jar build/libs/applecart-0.0.1.jar test-dataset/bigdataformattedwithnull.jsonl
+java -jar build/libs/graph-0.0.1.jar test-dataset/bigdataformattedwithnull.jsonl
 ```
 
 ## GraalVM
