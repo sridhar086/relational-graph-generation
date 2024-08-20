@@ -1,0 +1,1 @@
+$JAVA_HOME/bin/native-image -jar build/libs/graph-0.0.1.jar -o graph-project-executable-v0.0.1

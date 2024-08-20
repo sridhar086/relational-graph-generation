@@ -1,0 +1,13 @@
+# Use a base image with a JRE installed
+FROM openjdk:17-jdk-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the JAR file into the container
+COPY build/libs/graph-0.0.1.jar /app/graph-0.0.1.jar
+
+# COPY the needed file into container or mount a volume
+# COPY <file> </app/>
+
+CMD ["java", "-jar", "graph-0.0.1.jar"]
